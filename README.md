@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# UI Design Daily | Day 1384
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This landing page project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+UI Design from [UIDesignDaily](https://www.uidesigndaily.com/posts/figma-landing-page-website-day-1384)
+
+# Screenshot
+![screencapture-localhost-3000-2022-07-11-16_57_15](https://user-images.githubusercontent.com/81738932/178227313-101a4388-867c-4819-9a52-e8f16546061c.png)
+
+
 
 ## Available Scripts
 
