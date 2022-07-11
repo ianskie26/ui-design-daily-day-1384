@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .navbar--wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+    border-bottom: 1px solid #EFEFFF;
+  }
+
+  .links, .right-navbar {
+    align-content: center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .links a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: #202142;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
+  }
+
+  .nav-focus {
+    background: #F1F1FD;
+    border-radius: 32px;
+  }
+
+  .right-navbar {
+    margin-right: 0;
+    
+  }
+
+ .right-navbar button {
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    padding: 15px 30px;
+ }
+
+ .login {
+    background-color: white;
+ }
+
+ .signup {
+    background-color: #202142;
+    border-radius: 10px;
+    color: white;
+ }
+
+ .banner {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: #FCFCFF;
+ }
+
+ .banner--text {
+     text-align: center;
+     padding-top: 90px;
+     padding-right: 430px;
+     padding-left: 430px;
+     padding-bottom: 122px;
+ }
+
+ .banner--text h1 {
+     margin-bottom: 16px;
+     font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+ }
+
+ .banner--text p {
+     margin-bottom: 38px;
+     font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+ }
+ 
+ .bar {
+    border: 1px solid #EFEFFF;
+    box-shadow: 0px 16px 35px -15px rgba(2, 5, 132, 0.15);
+    border-radius: 10px;
+    display: flex;
+ }
+
+ .dropdown {
+    padding: 15px;
+    border-right: 1px solid #EFEFFF;
+ }
+
+ .search--input {
+    display: flex;
+    border: none;
+    color: #202142;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+ }
+
+ form {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-left: 20px;
+ }
+
+ .filters--wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+}
+
+.left--filter {
+    background: #FCFCFF;
+    border: 1px solid #EFEFFF;
+    border-radius: 70px;
+    padding: 15px 30px;
+}
+
+.popular{
+    text-decoration: none;
+    padding: 15px 30px;
+    color: #202142;
+    opacity: 0.6;
+}
+
+.latest {
+    text-decoration: none;
+    background: #FFFFFF;
+    border: 1px solid #EFEFFF;
+    box-shadow: 0px 10px 15px -10px rgba(2, 5, 132, 0.05);
+    border-radius: 45px;
+    color: #202142;
+    opacity: 1;
+    padding: 15px 30px;
+    width: 100%;
+}
+
+.all-filter {
+    background: #FCFCFF;
+    border: 1px solid #EFEFFF;
+    border-radius: 32px;
+    text-decoration: none;
+    color: #202142;
+    opacity: 1;
+    padding: 10px 15px;
+}
+
+.unfocus-filter {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #202142;
+    opacity: 0.7;
+    padding: 10px 15px;
+}
+
+.right--filter a {
+    margin-right: 15px;
+    border: 1px solid #EFEFFF;
+    border-radius: 50%;
+    padding: 10px;
+    line-height: 5px; 
+    display: inline-block;
+    background: #FCFCFF;
+}
+
+.with-border {
+    border: 1px solid #FF6A95 !important;
+    border-radius: 70px;
+    background: #FCFCFF;
+}
+
+section {
+    padding: 20px;
+  }
+  
+.cards-list {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    justify-content: space-around;
+}
+
+.cards {
+    width: 425px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card--image {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+    height: 319px;
+}
+
+.card--stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.thumbnail {
+    height: 30px;
+    width: 30px;
+    border-radius: 45px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info p {
+    margin-left: 14px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.cards-num p {
+    padding-right: 10px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.card--badge {
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 45px;
+    font-weight: bold;
+  }
